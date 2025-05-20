@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	description: "可愛到讓你破防",
+	text: [
+		"能不能遇到全看運氣",
+		"把它刷死有機率掉落爆裂人偶",
+		"也就是BamBamBam之王的召喚物"
+	],
+	tasks: [{
+		uid: "2ea9e5c0",
+		type: "kill",
+		entity: "aoa3:little_bam",
+		value: 10L
+	}]
+}

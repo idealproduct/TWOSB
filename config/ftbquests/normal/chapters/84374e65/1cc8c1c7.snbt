@@ -1,0 +1,11 @@
+{
+	x: -5.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "20b40214",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}]
+	}]
+}

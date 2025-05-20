@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	dependencies: [
+		"cb21a816"
+	],
+	tasks: [{
+		uid: "05f522bc",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

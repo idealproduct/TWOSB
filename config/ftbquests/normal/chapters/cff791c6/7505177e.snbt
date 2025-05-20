@@ -1,0 +1,12 @@
+{
+	title: "兌換商店",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"這裡是讓玩家兌換自己所需物品的地方#"
+	],
+	tasks: [{
+		uid: "7c18fc5d",
+		type: "checkmark"
+	}]
+}

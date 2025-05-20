@@ -1,0 +1,15 @@
+{
+	title: "熱力蒸餾塔",
+	x: 4.0d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "33ff4b44",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	}]
+}

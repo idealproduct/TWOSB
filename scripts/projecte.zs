@@ -1,0 +1,11 @@
+import mods.botaniatweaks.Agglomeration;
+recipes.remove(<projecte:item.pe_dm_axe>);
+recipes.remove(<projecte:item.pe_dm_shovel>);
+recipes.remove(<projecte:item.pe_dm_sword>);
+recipes.remove(<projecte:item.pe_dm_hoe>);
+recipes.remove(<projecte:item.pe_dm_shears>);
+recipes.remove(<projecte:item.pe_dm_hammer>);
+recipes.remove(<projecte:item.pe_dm_armor_3>);
+recipes.remove(<projecte:item.pe_dm_armor_2>);
+recipes.remove(<projecte:item.pe_dm_armor_1>);
+recipes.remove(<projecte:item.pe_dm_armor_0>);

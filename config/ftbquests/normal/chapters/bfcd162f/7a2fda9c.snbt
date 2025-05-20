@@ -1,0 +1,24 @@
+{
+	icon: "aoa3:gold_king_bambambam_statue",
+	x: 4.0d,
+	y: -1.0d,
+	description: "痛到足以秒殺你!",
+	text: [
+		"有防爆的話 建議卡牆打他",
+		"不然近距離被摸到 普通難度的傷害就有20滴血了#",
+		"建議先把裝備撐起來再攻略"
+	],
+	tasks: [{
+		uid: "6130f4b1",
+		type: "kill",
+		entity: "aoa3:king_bambambam",
+		value: 1L
+	},
+	{
+		uid: "2f15144c",
+		type: "item",
+		items: [{
+			item: "aoa3:explosive_idol"
+		}]
+	}]
+}

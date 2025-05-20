@@ -1,0 +1,576 @@
+{
+	title: "吃土吧",
+	x: 3.0d,
+	y: -1.0d,
+	text: [
+		"乖乖吃下第一塊土",
+		"放心 他是沒用的"
+	],
+	dependencies: [
+		"3379e526"
+	],
+	tasks: [{
+		uid: "3c0f930d",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}],
+	rewards: [{
+		uid: "c32be01b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: -2961490688378384512L,
+					AS_Amulet_HolderLeast: -6322356625320025226L
+				}
+			},
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "豪華大禮包"
+				},
+				packInfo: {
+					type: "ironbackpacks:diamond",
+					own: "d6e6abe8-d994-4f80-a842-7a2584766376",
+					upgrade: [],
+					spec: "STORAGE"
+				},
+				packInv: [{
+					tag: {
+						textureBlock: {
+							Count: 1b,
+							Damage: 7s,
+							id: "thermalfoundation:storage"
+						}
+					},
+					Count: 1b,
+					Damage: 0s,
+					id: "tconstruct:toolforge"
+				},
+				{
+					tag: {
+						textureBlock: {
+							Count: 1b,
+							Damage: 0s,
+							id: "tconevo:metal_block"
+						}
+					},
+					Count: 1b,
+					Damage: 0s,
+					id: "slashbladetic:blade_forge"
+				},
+				{
+					Count: 2b,
+					Damage: 4s,
+					id: "tconstruct:tooltables"
+				},
+				{
+					tag: {
+						textureBlock: {
+							Count: 1b,
+							Damage: 0s,
+							id: "minecraft:log"
+						}
+					},
+					Count: 1b,
+					Damage: 2s,
+					id: "tconstruct:tooltables"
+				},
+				{
+					tag: {
+						textureBlock: {
+							Count: 1b,
+							Damage: 0s,
+							id: "minecraft:planks"
+						}
+					},
+					Count: 1b,
+					Damage: 1s,
+					id: "tconstruct:tooltables"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "tconstruct:tooltables"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "tconstruct:smeltery_controller"
+				},
+				{
+					Count: 2b,
+					Damage: 0s,
+					id: "tconstruct:seared_tank"
+				},
+				{
+					Count: 6b,
+					Damage: 0s,
+					id: "tconstruct:faucet"
+				},
+				{
+					Count: 3b,
+					Damage: 0s,
+					id: "tconstruct:casting"
+				},
+				{
+					Count: 3b,
+					Damage: 1s,
+					id: "tconstruct:casting"
+				},
+				{
+					Count: 3b,
+					Damage: 0s,
+					id: "tconstruct:smeltery_io"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					tag: {
+						Modifiers: [{
+							color: -9758439,
+							identifier: "autosmelt",
+							level: 1
+						},
+						{
+							color: -9758439,
+							identifier: "blazing",
+							level: 1
+						},
+						{
+							color: -14122284,
+							identifier: "momentum",
+							level: 1
+						},
+						{
+							color: -14529617,
+							identifier: "unnatural",
+							level: 1
+						},
+						{
+							color: 0,
+							identifier: "creative",
+							level: 64
+						},
+						{
+							identifier: "luck",
+							max: 360,
+							current: 360,
+							color: 2970082,
+							modifierUsed: 1b,
+							extraInfo: "359 / 360",
+							level: 3
+						},
+						{
+							color: 9502720,
+							identifier: "haste",
+							max: 250,
+							extraInfo: "249 / 250",
+							level: 5,
+							current: 250
+						},
+						{
+							color: -11757164,
+							identifier: "fortifyinfinity_metal"
+						},
+						{
+							color: 5254787,
+							identifier: "reinforced",
+							level: 5
+						}],
+						TinkerData: {
+							UsedModifiers: 11,
+							Materials: [
+								"emberstone",
+								"cobalt",
+								"starmetal"
+							],
+							Modifiers: [
+								"creative",
+								"luck",
+								"haste",
+								"fortifyinfinity_metal",
+								"reinforced"
+							]
+						},
+						Unbreakable: 1b,
+						ench: [{
+							lvl: 3s,
+							id: 35s
+						}],
+						Stats: {
+							FreeModifiers: 56,
+							MiningSpeed: 31.658552f,
+							AttackSpeedMultiplier: 1.0f,
+							HarvestLevel: 93,
+							Attack: 4.1f,
+							Durability: 649
+						},
+						Special: {
+							Categories: [
+								"aoe",
+								"tool",
+								"harvest"
+							]
+						},
+						Traits: [
+							"autosmelt",
+							"blazing",
+							"momentum",
+							"unnatural",
+							"luck",
+							"reinforced"
+						],
+						StatsOriginal: {
+							FreeModifiers: 3,
+							MiningSpeed: 12.0f,
+							AttackSpeedMultiplier: 1.0f,
+							HarvestLevel: 4,
+							Attack: 4.1f,
+							Durability: 649
+						}
+					},
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "tconstruct:pickaxe"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 64b,
+					Damage: 3s,
+					id: "tconstruct:seared"
+				},
+				{
+					Count: 64b,
+					Damage: 3s,
+					id: "tconstruct:seared"
+				},
+				{
+					Count: 64b,
+					Damage: 3s,
+					id: "tconstruct:seared"
+				},
+				{
+					Count: 64b,
+					Damage: 3s,
+					id: "tconstruct:seared"
+				},
+				{
+					Count: 64b,
+					Damage: 3s,
+					id: "tconstruct:seared"
+				},
+				{
+					Count: 16b,
+					Damage: 0s,
+					id: "minecraft:gold_block"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					tag: {
+						StoredEMC: 0L
+					},
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "projecte:item.pe_volcanite_amulet"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					tag: {
+						StoredEMC: 50000L
+					},
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "projecte:item.pe_klein_star"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				},
+				{
+					Count: 1b,
+					Damage: 0s,
+					id: "minecraft:air"
+				}]
+			},
+			id: "ironbackpacks:backpack"
+		}
+	}]
+}

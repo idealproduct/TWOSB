@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	min_required_dependencies: 1,
+	dependencies: [
+		"908f85c3"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "3f6b4ae1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}]
+	}],
+	rewards: [{
+		uid: "135b7bf4",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 16,
+		only_one: 1b
+	}]
+}

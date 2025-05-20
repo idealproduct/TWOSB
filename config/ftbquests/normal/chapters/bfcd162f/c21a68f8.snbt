@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -2.5d,
+	description: "我相信這絕對沒難度對吧",
+	text: [
+		"想要拿到他?",
+		"泡在岩漿裡面把純寶石丟出來就可以獲得了"
+	],
+	dependencies: [
+		"08fe00b1"
+	],
+	tasks: [{
+		uid: "fec42c7f",
+		type: "item",
+		items: [{
+			item: "aoa3:nether_realmstone"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

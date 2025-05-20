@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"f3f5fe59",
+		"9ac45a6a",
+		"4f4cd24a",
+		"1cc8c1c7"
+	],
+	tasks: [{
+		uid: "eefeaa44",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 35"
+		}]
+	}]
+}

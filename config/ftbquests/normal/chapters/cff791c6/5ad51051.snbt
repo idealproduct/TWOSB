@@ -1,0 +1,10 @@
+{
+	title: "一些零碎小物",
+	x: 3.5d,
+	y: 0.0d,
+	description: "如礦物 食物 電路板之類的物品",
+	tasks: [{
+		uid: "4eb6b2f1",
+		type: "checkmark"
+	}]
+}

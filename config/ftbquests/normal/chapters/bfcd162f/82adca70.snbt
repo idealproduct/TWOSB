@@ -1,0 +1,23 @@
+{
+	icon: "aoa3:gold_nethengeic_wither_statue",
+	x: 4.0d,
+	y: -4.0d,
+	description: "凋零怪 Pro Max",
+	text: [
+		"使用易燃塵右鍵納德吉克獸即可獲得召喚物",
+		"將召喚物丟在地上等待10秒即可召喚"
+	],
+	tasks: [{
+		uid: "fcff8256",
+		type: "kill",
+		entity: "aoa3:nethengeic_wither",
+		value: 1L
+	},
+	{
+		uid: "052fec54",
+		type: "item",
+		items: [{
+			item: "aoa3:nethengeic_callstone"
+		}]
+	}]
+}

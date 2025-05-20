@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "97fa523d",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:filter"
+		}]
+	}]
+}

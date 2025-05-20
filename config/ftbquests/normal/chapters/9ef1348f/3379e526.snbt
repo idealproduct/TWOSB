@@ -1,0 +1,70 @@
+{
+	title: "加入遊戲",
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		"歡迎來到這個世界",
+		"開局大放送ouo"
+	],
+	tasks: [{
+		uid: "b55dccf5",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "e5341a50",
+		type: "item",
+		item: "minecraft:chainmail_helmet"
+	},
+	{
+		uid: "25c370c8",
+		type: "item",
+		item: "minecraft:chainmail_chestplate"
+	},
+	{
+		uid: "a6c6280f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: -2961490688378384512L,
+					AS_Amulet_HolderLeast: -6322356625320025226L
+				}
+			},
+			id: "minecraft:chainmail_leggings"
+		}
+	},
+	{
+		uid: "20709038",
+		type: "item",
+		item: "minecraft:chainmail_boots"
+	},
+	{
+		uid: "bbcee68b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: -2961490688378384512L,
+					AS_Amulet_HolderLeast: -6322356625320025226L
+				}
+			},
+			tag: {
+				RepairCost: 0,
+				ProudSoul: 200,
+				TargetEntity: 0,
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				}],
+				RepairCounter: 1,
+				SlashBlade: {},
+				SB.SEffect: {},
+				display: {
+					Name: "旅途「始」"
+				}
+			},
+			id: "flammpfeil.slashblade:slashblade"
+		}
+	}]
+}

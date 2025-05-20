@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "50d86658",
+		type: "checkmark",
+		icon: "astralsorcery:itemcraftingcomponent"
+	}],
+	rewards: [{
+		uid: "87ad0920",
+		type: "xp",
+		xp: 100
+	}]
+}

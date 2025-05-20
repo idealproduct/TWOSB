@@ -1,0 +1,12 @@
+{
+	x: -3.0d,
+	y: 3.5d,
+	dependencies: [
+		"eaf35bb9"
+	],
+	tasks: [{
+		uid: "3984d893",
+		type: "checkmark",
+		title: "三倍礦物"
+	}]
+}

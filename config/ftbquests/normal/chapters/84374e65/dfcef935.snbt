@@ -1,0 +1,13 @@
+{
+	x: -7.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "3d24c342",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

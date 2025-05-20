@@ -1,0 +1,22 @@
+{
+	title: "深不見底",
+	x: 0.0d,
+	y: 4.5d,
+	description: "聽起來確實相當深",
+	text: [
+		"其實純寶石不難獲得",
+		"帶著空白純寶石乖乖去基岩層挖礦就有了"
+	],
+	dependencies: [
+		"08fe00b1"
+	],
+	tasks: [{
+		uid: "60e52e56",
+		type: "item",
+		items: [{
+			item: "aoa3:deeplands_realmstone"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

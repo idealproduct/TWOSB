@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "d645692b",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo"
+		}]
+	}]
+}

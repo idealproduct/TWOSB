@@ -1,0 +1,23 @@
+{
+	title: "一個綠意盎然的世界",
+	disable_toast: 1b,
+	x: 2.5d,
+	y: 2.5d,
+	description: "其實一點都不和平",
+	text: [
+		"獲得方式相當無腦",
+		"使用Minecraft六種原版樹苗與空白純寶石合成即可"
+	],
+	dependencies: [
+		"08fe00b1"
+	],
+	tasks: [{
+		uid: "51f3dd65",
+		type: "item",
+		items: [{
+			item: "aoa3:precasia_realmstone"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

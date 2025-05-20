@@ -1,0 +1,41 @@
+{
+	title: "觀察浮光水晶",
+	x: -1.5d,
+	y: -3.5d,
+	description: "觀察浮光水晶",
+	guide_page: "1",
+	dependencies: [
+		"18c28830"
+	],
+	tasks: [{
+		uid: "654da293",
+		type: "observation",
+		icon: {
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						size: 400,
+						sizeOverride: -1,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0
+					},
+					collectorType: 0
+				}
+			},
+			id: "astralsorcery:blockcollectorcrystal"
+		},
+		match_type: "block_id",
+		match: "",
+		timer: 0L
+	},
+	{
+		uid: "68479306",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "404325f8",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:tome_experience",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

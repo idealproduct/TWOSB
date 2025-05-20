@@ -1,0 +1,24 @@
+{
+	title: "爵士?好像挺特別的",
+	x: -2.5d,
+	y: -2.5d,
+	description: "其實標題在唬爛",
+	text: [
+		"畢竟是第一階段的世界",
+		"純寶石很好拿",
+		"但是取得途徑卻又有點莫名其妙",
+		"使用空白純寶石擊殺屍殼即可獲得"
+	],
+	dependencies: [
+		"08fe00b1"
+	],
+	tasks: [{
+		uid: "52d6e152",
+		type: "item",
+		items: [{
+			item: "aoa3:barathos_realmstone"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

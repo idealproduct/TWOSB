@@ -1,0 +1,19 @@
+{
+	title: "億點小福利:3",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"還不快感瀉點子"
+	],
+	can_repeat: 1b,
+	tasks: [{
+		uid: "42aa6632",
+		type: "checkmark",
+		disable_toast: 1b
+	}],
+	rewards: [{
+		uid: "2e32628a",
+		type: "command",
+		command: "/execute @p ~ ~ ~ effect @p minecraft:night_vision 1000000 0 true"
+	}]
+}

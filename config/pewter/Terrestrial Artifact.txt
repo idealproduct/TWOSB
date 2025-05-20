@@ -1,0 +1,179 @@
+{
+  "name": "Terrestrial_Artifact",
+  "tool": {
+    "bow": {
+      "speed": 2,
+      "range": 3.0,
+      "bonusDamage": 10.0
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 15.0,
+      "speed": 16.0,
+      "durability": 3200,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 250
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 625
+    }
+  },
+  "color": "#99FF33",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1300,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Terrestrial Artifact",
+    "zh_tw": "天地寶晶",
+    "zh_cn": "天地宝晶"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "biomesoplenty:terrestrial_artifact"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability":45.5,
+      "defense": 35.0
+    },
+    "plates": {
+      "modifier": 2.75,
+      "durability": 10.0,
+      "toughness": 8.0
+    },
+    "trim": {
+      "extraDurability": 20.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "bloodymary",
+      "sharp",
+      "naturesblessing",
+      "natureswrath",
+      "aquadynamic",
+      "freezing",
+      "elemental",
+      "terrafirma2"
+    ],
+    "HEAD": [
+      "bloodymary",
+      "sharp",
+      "naturesblessing",
+      "natureswrath",
+      "aquadynamic",
+      "freezing",
+      "elemental",
+      "terrafirma2"
+    ],
+    "HANDLE": [
+      "bloodymary",
+      "sharp",
+      "naturesblessing",
+      "natureswrath",
+      "aquadynamic",
+      "freezing",
+      "elemental",
+      "terrafirma2"
+    ],
+    "BOW": [
+      "bloodymary",
+      "sharp",
+      "naturesblessing",
+      "natureswrath",
+      "aquadynamic",
+      "freezing",
+      "elemental",
+      "terrafirma2"
+    ],
+    "PROJECTILE": [
+      "bloodymary",
+      "sharp",
+      "naturesblessing",
+      "natureswrath",
+      "aquadynamic",
+      "freezing",
+      "elemental",
+      "terrafirma2"
+    ],
+    "CORE": [
+      "haorans_cult_armor",
+      "voltaic_armor",
+      "tom_and_jerry_armor",
+      "aquaspeed_armor",
+      "absorbent_armor",
+      "terrafirma1",
+      "goodfridayagreement_armor"
+    ],
+    "PLATES": [
+      "haorans_cult_armor",
+      "voltaic_armor",
+      "tom_and_jerry_armor",
+      "aquaspeed_armor",
+      "absorbent_armor",
+      "terrafirma1",
+      "goodfridayagreement_armor"
+    ],
+    "TRIM": [
+      "haorans_cult_armor",
+      "voltaic_armor",
+      "tom_and_jerry_armor",
+      "aquaspeed_armor",
+      "absorbent_armor",
+      "terrafirma1",
+      "goodfridayagreement_armor"
+    ]
+  }
+}

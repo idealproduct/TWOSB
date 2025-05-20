@@ -1,0 +1,23 @@
+{
+	title: "赫爾維蒂...我也不知道該怎麼玩梗了",
+	x: -2.5d,
+	y: 2.0d,
+	description: "名字有夠難記",
+	text: [
+		"神奇的世界必有神奇的純寶石取得方式",
+		"純寶石不難取得",
+		"只需從26格高往下跳之後還活著就可以獲得了"
+	],
+	dependencies: [
+		"08fe00b1"
+	],
+	tasks: [{
+		uid: "6db8f60e",
+		type: "item",
+		items: [{
+			item: "aoa3:lelyetia_realmstone"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

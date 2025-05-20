@@ -1,0 +1,22 @@
+{
+	title: "一個屬於爆破狂熱者的世界",
+	x: 0.0d,
+	y: -4.5d,
+	description: "爆炸就是藝術",
+	text: [
+		"純寶石獲取方式:",
+		"在一個點燃的TNT附近(3格內)受到苦力怕的爆炸"
+	],
+	dependencies: [
+		"08fe00b1"
+	],
+	tasks: [{
+		uid: "cc5975d1",
+		type: "item",
+		items: [{
+			item: "aoa3:creeponia_realmstone"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

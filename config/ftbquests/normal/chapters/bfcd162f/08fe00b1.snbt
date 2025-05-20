@@ -1,0 +1,54 @@
+{
+	title: "踏出艱難的一步",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"於此開始 你旅途來到了各種危險的世界",
+		"我知道你可能不想找雕符石",
+		"所以出於好意 這些東西送你:3",
+		"喔對了 當你背包內沒有純寶石的時候 打開這本書他會送你一個",
+		"備註:能量雕符石必須放在傳送們最下方中間那格",
+		"備註:接下來取得純寶石的任務過程中包包內必須有空白純寶石"
+	],
+	tasks: [{
+		uid: "6a67e8c7",
+		type: "checkmark",
+		title: "踏出第一步"
+	}],
+	rewards: [{
+		uid: "de0bb93f",
+		type: "item",
+		item: "aoa3:carved_rune_direction"
+	},
+	{
+		uid: "5c0f5f40",
+		type: "item",
+		item: "aoa3:carved_rune_space"
+	},
+	{
+		uid: "eedf5e93",
+		type: "item",
+		item: "aoa3:carved_rune_power"
+	},
+	{
+		uid: "947b65bd",
+		type: "item",
+		item: "aoa3:carved_rune_reality"
+	},
+	{
+		uid: "14208328",
+		type: "item",
+		item: "aoa3:carved_rune_travel"
+	},
+	{
+		uid: "e92447a8",
+		type: "item",
+		item: "aoa3:ancient_rock",
+		count: 64
+	},
+	{
+		uid: "7a9a7a08",
+		type: "item",
+		item: "aoa3:worn_book"
+	}]
+}

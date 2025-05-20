@@ -1,0 +1,22 @@
+#Configurations for material Ardite.
+[general]
+	#The module blacklist of this material.
+	moduleBlacklist = []
+	#The alternative names of this material.
+	alternativeNames = []
+	#The color of this material.
+	color = 9844503
+	#The byproducts of this material.
+	extras = []
+	#The model type of the material.
+	modelType = "metallic"
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
+[create]
+	#The default byproduct material to output in Create Legacy's crusher.
+	byproduct = "minecraft:cobblestone"
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"

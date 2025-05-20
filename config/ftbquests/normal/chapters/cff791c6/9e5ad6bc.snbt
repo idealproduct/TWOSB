@@ -1,0 +1,10 @@
+{
+	title: "武器",
+	x: -3.5d,
+	y: 0.0d,
+	description: "嘿沒錯 強力武器#",
+	tasks: [{
+		uid: "41eb715b",
+		type: "checkmark"
+	}]
+}

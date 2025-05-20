@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -6.5d,
+	dependencies: [
+		"588bc119"
+	],
+	tasks: [{
+		uid: "e906c7b1",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}]
+	}]
+}

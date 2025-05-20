@@ -1,0 +1,10 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d8abe8e0",
+		type: "advancement",
+		advancement: "astralsorcery:craft_t2_altar",
+		criterion: ""
+	}]
+}
