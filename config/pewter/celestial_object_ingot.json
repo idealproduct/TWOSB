@@ -1,0 +1,132 @@
+{
+  "name": "celestial_object_ingot",
+  "tool": {
+    "bow": {
+      "speed": 0.4,
+      "range": 1.0,
+      "bonusDamage": 5.0
+    },
+    "fletching": {
+      "accuracy": 1.0,
+      "modifier": 1.0
+    },
+    "head": {
+      "attackDamage": 150.0,
+      "speed": 40.0,
+      "durability": 11000,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.0,
+      "durability": 5000
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 2500
+    }
+  },
+  "color": "#FF66CC",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 475,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "celestial object ingot",
+    "zh_tw": "天體錠"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "contenttweaker:celestial_object_ingot"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 300.0,
+      "defense": 15.0
+    },
+    "plates": {
+      "modifier": 5.0,
+      "durability": 60.0,
+      "toughness": 10.0
+    },
+    "trim": {
+      "extraDurability": 30.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "blackhole",
+      "tconevo.attuned_horologium",
+      "tconevo.primordial"
+    ],
+    "HEAD": [
+      "blackhole",
+      "tconevo.attuned_horologium",
+      "tconevo.primordial"
+    ],
+    "HANDLE": [
+      "blackhole",
+      "tconevo.attuned_horologium",
+      "tconevo.primordial"
+    ],
+    "BOW": [
+      "tconevo.primordial",
+      "tconevo.flux_burn"
+    ],
+    "PROJECTILE": [
+      "tconevo.attuned_horologium_armor"
+    ],
+    "CORE": [
+      "tconevo.attuned_horologium_armor"
+    ],
+    "PLATES": [
+      "tconevo.attuned_horologium_armor"
+    ],
+    "TRIM": [
+      "tconevo.attuned_horologium_armor"
+    ]
+  }
+}
