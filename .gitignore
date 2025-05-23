@@ -1,0 +1,12 @@
+# 忽略所有東西
+*
+
+# 但保留這三個資料夾
+!scripts/
+!resources/
+!config/
+
+# 這些資料夾裡面的內容也要保留
+scripts/**
+resources/**
+config/**

@@ -22,3 +22,4 @@ function regItemWithStackSize(name as string, maxStackSize as int) {
 
 regItem("astral_ingot");
 regItem("chaotic_material");
+regItem("celestial_aggregate_ingot");
