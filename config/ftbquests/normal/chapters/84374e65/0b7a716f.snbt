@@ -5,10 +5,10 @@
 		uid: "404325f8",
 		type: "item",
 		items: [{
-			id: "thermalfoundation:tome_experience",
-			tag: {}
+			tag: {},
+			id: "thermalfoundation:tome_experience"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

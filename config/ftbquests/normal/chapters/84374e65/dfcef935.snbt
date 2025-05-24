@@ -5,8 +5,8 @@
 		uid: "3d24c342",
 		type: "item",
 		items: [{
-			id: "thermalexpansion:reservoir",
-			tag: {}
+			tag: {},
+			id: "thermalexpansion:reservoir"
 		}],
 		ignore_nbt: 1b
 	}]

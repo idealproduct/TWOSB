@@ -8,11 +8,11 @@
 		uid: "428abbc2",
 		type: "item",
 		items: [{
-			id: "thermalexpansion:satchel",
+			Damage: 1s,
 			tag: {
 				Accessible: 1b
 			},
-			Damage: 1s
+			id: "thermalexpansion:satchel"
 		}],
 		ignore_nbt: 1b
 	}]

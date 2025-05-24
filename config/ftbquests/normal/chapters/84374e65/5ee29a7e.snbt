@@ -8,9 +8,9 @@
 		uid: "dddf2ea2",
 		type: "item",
 		items: [{
-			id: "thermalexpansion:reservoir",
+			Damage: 3s,
 			tag: {},
-			Damage: 3s
+			id: "thermalexpansion:reservoir"
 		}],
 		ignore_nbt: 1b
 	}]

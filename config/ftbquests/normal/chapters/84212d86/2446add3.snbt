@@ -13,7 +13,7 @@
 		icon: {
 			tag: {
 				astralsorcery: {
-					constellationName: "astralsorcery.constellation.discidia",
+					collectorType: 0,
 					crystalProperties: {
 						size: 400,
 						sizeOverride: -1,
@@ -21,7 +21,7 @@
 						collectiveCapability: 100,
 						fract: 0
 					},
-					collectorType: 0
+					constellationName: "astralsorcery.constellation.discidia"
 				}
 			},
 			id: "astralsorcery:blockcollectorcrystal"

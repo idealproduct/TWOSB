@@ -5,10 +5,10 @@
 		uid: "853f95d1",
 		type: "item",
 		items: [{
+			Damage: 3s,
 			tag: {
 				tier: 3
 			},
-			Damage: 3s,
 			id: "mekanism:transmitter"
 		}]
 	}]

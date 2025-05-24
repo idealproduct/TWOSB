@@ -27,8 +27,8 @@
 		item: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderMost: -2961490688378384512L,
-					AS_Amulet_HolderLeast: -6322356625320025226L
+					AS_Amulet_HolderLeast: -6322356625320025226L,
+					AS_Amulet_HolderMost: -2961490688378384512L
 				}
 			},
 			id: "minecraft:chainmail_leggings"
@@ -45,8 +45,8 @@
 		item: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderMost: -2961490688378384512L,
-					AS_Amulet_HolderLeast: -6322356625320025226L
+					AS_Amulet_HolderLeast: -6322356625320025226L,
+					AS_Amulet_HolderMost: -2961490688378384512L
 				}
 			},
 			tag: {
@@ -58,11 +58,11 @@
 					id: 70s
 				}],
 				RepairCounter: 1,
-				SlashBlade: {},
-				SB.SEffect: {},
 				display: {
 					Name: "旅途「始」"
-				}
+				},
+				SB.SEffect: {},
+				SlashBlade: {}
 			},
 			id: "flammpfeil.slashblade:slashblade"
 		}

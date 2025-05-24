@@ -5,10 +5,10 @@
 		uid: "2029d8a3",
 		type: "item",
 		items: [{
-			id: "thermalexpansion:satchel",
 			tag: {
 				Accessible: 1b
-			}
+			},
+			id: "thermalexpansion:satchel"
 		}],
 		ignore_nbt: 1b
 	}]

@@ -22,8 +22,8 @@
 		item: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderMost: -2961490688378384512L,
-					AS_Amulet_HolderLeast: -6322356625320025226L
+					AS_Amulet_HolderLeast: -6322356625320025226L,
+					AS_Amulet_HolderMost: -2961490688378384512L
 				}
 			},
 			tag: {
@@ -38,240 +38,262 @@
 					spec: "STORAGE"
 				},
 				packInv: [{
+					Count: 1b,
+					Damage: 0s,
+					id: "tconstruct:toolforge",
 					tag: {
 						textureBlock: {
 							Count: 1b,
-							Damage: 7s,
-							id: "thermalfoundation:storage"
+							id: "thermalfoundation:storage",
+							Damage: 7s
 						}
-					},
-					Count: 1b,
-					Damage: 0s,
-					id: "tconstruct:toolforge"
+					}
 				},
 				{
+					Count: 1b,
+					Damage: 0s,
+					id: "slashbladetic:blade_forge",
 					tag: {
 						textureBlock: {
 							Count: 1b,
-							Damage: 0s,
-							id: "tconevo:metal_block"
+							id: "tconevo:metal_block",
+							Damage: 0s
 						}
-					},
-					Count: 1b,
-					Damage: 0s,
-					id: "slashbladetic:blade_forge"
+					}
 				},
 				{
 					Count: 2b,
-					Damage: 4s,
-					id: "tconstruct:tooltables"
+					id: "tconstruct:tooltables",
+					Damage: 4s
 				},
 				{
-					tag: {
-						textureBlock: {
-							Count: 1b,
-							Damage: 0s,
-							id: "minecraft:log"
-						}
-					},
 					Count: 1b,
 					Damage: 2s,
-					id: "tconstruct:tooltables"
-				},
-				{
+					id: "tconstruct:tooltables",
 					tag: {
 						textureBlock: {
 							Count: 1b,
-							Damage: 0s,
-							id: "minecraft:planks"
+							id: "minecraft:log",
+							Damage: 0s
 						}
-					},
+					}
+				},
+				{
 					Count: 1b,
 					Damage: 1s,
-					id: "tconstruct:tooltables"
+					id: "tconstruct:tooltables",
+					tag: {
+						textureBlock: {
+							Count: 1b,
+							id: "minecraft:planks",
+							Damage: 0s
+						}
+					}
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "tconstruct:tooltables"
+					id: "tconstruct:tooltables",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "tconstruct:smeltery_controller"
+					id: "tconstruct:smeltery_controller",
+					Damage: 0s
 				},
 				{
 					Count: 2b,
-					Damage: 0s,
-					id: "tconstruct:seared_tank"
+					id: "tconstruct:seared_tank",
+					Damage: 0s
 				},
 				{
 					Count: 6b,
-					Damage: 0s,
-					id: "tconstruct:faucet"
+					id: "tconstruct:faucet",
+					Damage: 0s
 				},
 				{
 					Count: 3b,
-					Damage: 0s,
-					id: "tconstruct:casting"
+					id: "tconstruct:casting",
+					Damage: 0s
 				},
 				{
 					Count: 3b,
-					Damage: 1s,
-					id: "tconstruct:casting"
+					id: "tconstruct:casting",
+					Damage: 1s
 				},
 				{
 					Count: 3b,
-					Damage: 0s,
-					id: "tconstruct:smeltery_io"
+					id: "tconstruct:smeltery_io",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
+					id: "tconstruct:pickaxe",
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
 					tag: {
+						Unbreakable: 1b,
+						TinkerData: {
+							UsedModifiers: 11,
+							Materials: [
+								"emberstone",
+								"cobalt",
+								"starmetal"
+							],
+							Modifiers: [
+								"creative",
+								"luck",
+								"haste",
+								"fortifyinfinity_metal",
+								"reinforced"
+							]
+						},
 						Modifiers: [{
 							color: -9758439,
 							identifier: "autosmelt",
@@ -323,22 +345,6 @@
 							identifier: "reinforced",
 							level: 5
 						}],
-						TinkerData: {
-							UsedModifiers: 11,
-							Materials: [
-								"emberstone",
-								"cobalt",
-								"starmetal"
-							],
-							Modifiers: [
-								"creative",
-								"luck",
-								"haste",
-								"fortifyinfinity_metal",
-								"reinforced"
-							]
-						},
-						Unbreakable: 1b,
 						ench: [{
 							lvl: 3s,
 							id: 35s
@@ -358,14 +364,6 @@
 								"harvest"
 							]
 						},
-						Traits: [
-							"autosmelt",
-							"blazing",
-							"momentum",
-							"unnatural",
-							"luck",
-							"reinforced"
-						],
 						StatsOriginal: {
 							FreeModifiers: 3,
 							MiningSpeed: 12.0f,
@@ -373,201 +371,203 @@
 							HarvestLevel: 4,
 							Attack: 4.1f,
 							Durability: 649
-						}
-					},
-					Count: 1b,
-					Damage: 0s,
-					ForgeCaps: {
-						"astralsorcery:cap_item_amulet_holder": {}
-					},
-					id: "tconstruct:pickaxe"
+						},
+						Traits: [
+							"autosmelt",
+							"blazing",
+							"momentum",
+							"unnatural",
+							"luck",
+							"reinforced"
+						]
+					}
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 64b,
-					Damage: 3s,
-					id: "tconstruct:seared"
+					id: "tconstruct:seared",
+					Damage: 3s
 				},
 				{
 					Count: 64b,
-					Damage: 3s,
-					id: "tconstruct:seared"
+					id: "tconstruct:seared",
+					Damage: 3s
 				},
 				{
 					Count: 64b,
-					Damage: 3s,
-					id: "tconstruct:seared"
+					id: "tconstruct:seared",
+					Damage: 3s
 				},
 				{
 					Count: 64b,
-					Damage: 3s,
-					id: "tconstruct:seared"
+					id: "tconstruct:seared",
+					Damage: 3s
 				},
 				{
 					Count: 64b,
-					Damage: 3s,
-					id: "tconstruct:seared"
+					id: "tconstruct:seared",
+					Damage: 3s
 				},
 				{
 					Count: 16b,
-					Damage: 0s,
-					id: "minecraft:gold_block"
+					id: "minecraft:gold_block",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
+					id: "projecte:item.pe_volcanite_amulet",
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
 					tag: {
 						StoredEMC: 0L
-					},
+					}
+				},
+				{
+					Count: 1b,
+					id: "minecraft:air",
+					Damage: 0s
+				},
+				{
+					id: "projecte:item.pe_klein_star",
 					Count: 1b,
 					Damage: 0s,
 					ForgeCaps: {
 						"astralsorcery:cap_item_amulet_holder": {}
 					},
-					id: "projecte:item.pe_volcanite_amulet"
-				},
-				{
-					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
-				},
-				{
 					tag: {
 						StoredEMC: 50000L
-					},
-					Count: 1b,
-					Damage: 0s,
-					ForgeCaps: {
-						"astralsorcery:cap_item_amulet_holder": {}
-					},
-					id: "projecte:item.pe_klein_star"
+					}
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				},
 				{
 					Count: 1b,
-					Damage: 0s,
-					id: "minecraft:air"
+					id: "minecraft:air",
+					Damage: 0s
 				}]
 			},
 			id: "ironbackpacks:backpack"
