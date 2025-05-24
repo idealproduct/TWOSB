@@ -1,23 +1,23 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Lucas
 Ivy_
-Pongo Sapiens
+embeddedt
+Lucas
+Jellycraft
+Peregrinus11
+Hooley
 Zuniroa
 DreamThorn
-Peregrinus11
-Jordan Pineo
-Ncc1702
-Quaternary
-NickT
-embeddedt
-Belathus
-Jellycraft
-Jessie Sims
-Hooley
-Spencer Gilbert
-NerdyWhiteGuy
 Genryu
+Jessie Sims
+NerdyWhiteGuy
+Ncc1702
 Jonathan McManus
+NickT
+Spencer Gilbert
+Quaternary
+Pongo Sapiens
+Belathus
+Jordan Pineo
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
@@ -27,130 +27,29 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: astralaltercrafting.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: avaritia.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: final_star.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: invincible.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: primordial.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: projecte&avaritia.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: projecte.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: triait.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 2ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[1000:contenttweaker]: items.zs}
-[PREINITIALIZATION][CLIENT][ERROR] items.zs:28 > No such member in mods.contenttweaker.Item: setDisplayName
-[PREINITIALIZATION][CLIENT][ERROR] items.zs:29 > No such member in mods.contenttweaker.Item: addTooltip
-[PREINITIALIZATION][CLIENT][ERROR] items.zs:30 > No such member in mods.contenttweaker.Item: addTooltip
-[PREINITIALIZATION][CLIENT][FATAL] [contenttweaker]: Error executing {[1000:contenttweaker]: items.zs}: Bad type on operand stack
-Exception Details:
-  Location:
-    Items.__script__()V @41: invokestatic
-  Reason:
-    Type 'stanhebben/zenscript/value/IAny' (current frame, stack[4]) is not assignable to 'java/lang/String'
-  Current Frame:
-    bci: @41
-    flags: { }
-    locals: { top, 'com/teamacronymcoders/contenttweaker/modules/vanilla/items/ItemRepresentation' }
-    stack: { null, '[Lstanhebben/zenscript/value/IAny;', '[Lstanhebben/zenscript/value/IAny;', integer, 'stanhebben/zenscript/value/IAny' }
-  Bytecode:
-    0x0000000: 122a b800 2c57 122e b800 2c57 1230 b800
-    0x0000010: 0f4c 0112 31bd 0033 5912 3412 3659 c700
-    0x0000020: 0857 01a7 0006 b800 3cb8 0042 53b9 0046
-    0x0000030: 0200 5701 1231 bd00 3359 1234 1248 59c7
-    0x0000040: 0008 5701 a700 06b8 003c b800 4253 b900
-    0x0000050: 4602 0057 0112 31bd 0033 5912 3412 4a59
-    0x0000060: c700 0857 01a7 0006 b800 3cb8 0042 53b9
-    0x0000070: 0046 0200 572b b600 25b1               
-  Stackmap Table:
-    full_frame(@38,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#78]})
-    full_frame(@41,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#51]})
-    full_frame(@71,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#78]})
-    full_frame(@74,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#51]})
-    full_frame(@104,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#78]})
-    full_frame(@107,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#51]})
-
-java.lang.VerifyError: Bad type on operand stack
-Exception Details:
-  Location:
-    Items.__script__()V @41: invokestatic
-  Reason:
-    Type 'stanhebben/zenscript/value/IAny' (current frame, stack[4]) is not assignable to 'java/lang/String'
-  Current Frame:
-    bci: @41
-    flags: { }
-    locals: { top, 'com/teamacronymcoders/contenttweaker/modules/vanilla/items/ItemRepresentation' }
-    stack: { null, '[Lstanhebben/zenscript/value/IAny;', '[Lstanhebben/zenscript/value/IAny;', integer, 'stanhebben/zenscript/value/IAny' }
-  Bytecode:
-    0x0000000: 122a b800 2c57 122e b800 2c57 1230 b800
-    0x0000010: 0f4c 0112 31bd 0033 5912 3412 3659 c700
-    0x0000020: 0857 01a7 0006 b800 3cb8 0042 53b9 0046
-    0x0000030: 0200 5701 1231 bd00 3359 1234 1248 59c7
-    0x0000040: 0008 5701 a700 06b8 003c b800 4253 b900
-    0x0000050: 4602 0057 0112 31bd 0033 5912 3412 4a59
-    0x0000060: c700 0857 01a7 0006 b800 3cb8 0042 53b9
-    0x0000070: 0046 0200 572b b600 25b1               
-  Stackmap Table:
-    full_frame(@38,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#78]})
-    full_frame(@41,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#51]})
-    full_frame(@71,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#78]})
-    full_frame(@74,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#51]})
-    full_frame(@104,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#78]})
-    full_frame(@107,{Top,Object[#25]},{Null,Object[#76],Object[#76],Integer,Object[#51]})
-
-	at __ZenMain__.run(Items)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:240)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:96)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:100)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:78)
-	at youyihj.zenutils.impl.runtime.ZenUtilsTweaker.loadScript(ZenUtilsTweaker.java:106)
-	at com.teamacronymcoders.contenttweaker.ContentTweaker.afterModuleHandlerInit(ContentTweaker.java:45)
-	at com.teamacronymcoders.base.BaseModFoundation.preInit(BaseModFoundation.java:112)
-	at com.teamacronymcoders.contenttweaker.ContentTweaker.preInit(ContentTweaker.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
-	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
-	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
-	at net.minecraft.client.Minecraft.func_71384_a(MinecraftAccessor.java:467)
-	at net.minecraft.client.Minecraft.func_99999_d(MinecraftAccessor.java:378)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: AOA3.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: astralaltercrafting.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: avaritia.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: final_star.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: invincible.zs}
+[PREINITIALIZATION][CLIENT][ERROR] invincible.zs:12 > No such member in mods.contenttweaker.tconstruct.TraitBuilder: onHurt
+[PREINITIALIZATION][CLIENT][ERROR] invincible.zs:12 > not a valid lvalue
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: primordial.zs}
+[PREINITIALIZATION][CLIENT][ERROR] primordial.zs:13 > No such member in crafttweaker.damage.IDamageSource: createDamageSource
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: projecte&avaritia.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: projecte.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: triait.zs}
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 880ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 734ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
@@ -158,10 +57,10 @@ Exception Details:
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[1000:contenttweaker]: items.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: AOA3.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: astralaltercrafting.zs}
-[INITIALIZATION][CLIENT][ERROR] astralaltercrafting.zs:21: Could not resolve <contenttweaker : astral_ingot>
-[INITIALIZATION][CLIENT][ERROR] [AstralSorcery Altar Crafting] Skipping recipe-addition due to invalid output itemstack.
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: avaritia.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: final_star.zs}
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: invincible.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: primordial.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: projecte&avaritia.zs}
 [INITIALIZATION][CLIENT][INFO] Removing Extreme Recipe from Avaritia with the output of: 寰宇支配之劍
 [INITIALIZATION][CLIENT][INFO] Removing Extreme Recipe from Avaritia with the output of: 天堂隕落長弓
@@ -177,7 +76,4 @@ Exception Details:
 [INITIALIZATION][CLIENT][ERROR] projecte.zs:1 > No such member: botaniatweaks
 [INITIALIZATION][CLIENT][ERROR] projecte.zs:1 > Not a valid type
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: triait.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 95ms
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 終極之星 with name ct_shaped1911852906
-[AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 167ms

@@ -4,14 +4,13 @@ import crafttweaker.damage.IDamageSource;
 
 // 建立 Trait
 val invincible = TraitBuilder.create("invincible");
-invincible.color = 0x333333;
+invincible.color = 0x444444;
 invincible.localizedName = "我。即為真理";
-invincible.localizedDescription = "免疫絕大多數傷害";
+invincible.localizedDescription = "免疫90%傷害";
 
-// onHurt 事件攔截傷害並取消
+// onHurt 事件攔截傷害並削減
 invincible.onHurt = function(trait, tool, entity, damageSource, damage) {
-    // 把傷害設為 0
-    return 0.0;
+    return damage * 0.1;
 };
 
 invincible.register();
