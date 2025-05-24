@@ -1047,8 +1047,8 @@ thaumcraft:taintswarm
 thaumcraft:taintseed
 thaumcraft:taintseedprime
 enderio:owl_egg
-enderio:falling_machine
 enderio:primed_charge
+enderio:falling_machine
 twilightforest:wild_boar
 twilightforest:bighorn_sheep
 twilightforest:deer

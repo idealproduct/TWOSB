@@ -119,12 +119,12 @@ scalinghealth:bandaged
 tfspellpack:mist_cloak
 tfspellpack:ironwood_heart
 cuisine:effect_resistance
-cuisine:toughness
+cuisine:drunk
+cuisine:sustained_release
+cuisine:hot
 cuisine:dispersal
 cuisine:cold_blood
-cuisine:sustained_release
-cuisine:drunk
-cuisine:hot
+cuisine:toughness
 abyssalcraft:cplague
 abyssalcraft:dplague
 abyssalcraft:antimatter

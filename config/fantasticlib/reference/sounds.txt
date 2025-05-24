@@ -2134,12 +2134,12 @@ openblocks:cannon.activate
 openblocks:target.open
 openblocks:target.close
 openblocks:bottler.signal
+rftools:teleport_whoosh
+rftools:teleport_error
 rftools:elevator_start
 rftools:elevator_loop
 rftools:elevator_stop
 rftools:scan
-rftools:teleport_whoosh
-rftools:teleport_error
 scalinghealth:cursed_heart_use
 scalinghealth:enchanted_heart_use
 scalinghealth:heart_container_use

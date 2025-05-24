@@ -1,0 +1,133 @@
+{
+  "name": "chaotic_ingot",
+  "tool": {
+    "bow": {
+      "speed": 0.1,
+      "range": 1.0,
+      "bonusDamage": 5.0
+    },
+    "fletching": {
+      "accuracy": 1.0,
+      "modifier": 9.0
+    },
+    "head": {
+      "attackDamage": 900.0,
+      "speed": 40.0,
+      "durability": 14300,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.0,
+      "durability": 8760
+    },
+    "arrowShaft": {
+      "modifier": 9.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 5.1
+    },
+    "extra": {
+      "durability": 25000
+    }
+  },
+  "color": "#000000",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 475,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "chaos",
+    "zh_tw": "混沌聚合"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "contenttweaker:chaotic_ingot"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 300.0,
+      "defense": 90.0
+    },
+    "plates": {
+      "modifier": 5.0,
+      "durability": 60.0,
+      "toughness": 35.0
+    },
+    "trim": {
+      "extraDurability": 30.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "blackhole",
+      "primordial20"
+    ],
+    "HEAD": [
+      "blackhole",
+      "primordial20"
+    ],
+    "HANDLE": [
+      "blackhole",
+      "primordial20"
+    ],
+    "BOW": [
+      "blackhole",
+      "primordial20"
+    ],
+    "PROJECTILE": [
+      "invincible",
+      "tconevo.celestial_armor"
+    ],
+    "CORE": [
+      "invincible",
+      "tconevo.celestial_armor"
+    ],
+    "PLATES": [
+      "invincible",
+      "tconevo.celestial_armor"
+    ],
+    "TRIM": [
+      "invincible",
+      "tconevo.celestial_armor"
+    ]
+  }
+}
