@@ -1,0 +1,200 @@
+{
+  "name": "celestial_aggregate_ingot",
+  "tool": {
+    "bow": {
+      "speed": 0.3,
+      "range": 1.0,
+      "bonusDamage": 5.0
+    },
+    "fletching": {
+      "accuracy": 1.0,
+      "modifier": 2.53
+    },
+    "head": {
+      "attackDamage": 186.0,
+      "speed": 40.0,
+      "durability": 11000,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.0,
+      "durability": 7300
+    },
+    "arrowShaft": {
+      "modifier": 3.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 2.1
+    },
+    "extra": {
+      "durability": 3400
+    }
+  },
+  "color": "#0000FF",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 475,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "celestial aggregate ingot",
+    "zh_tw": "天體聚合錠"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "contenttweaker:celestial_aggregate_ingot"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 300.0,
+      "defense": 24.0
+    },
+    "plates": {
+      "modifier": 9.0,
+      "durability": 90.0,
+      "toughness": 18.0
+    },
+    "trim": {
+      "extraDurability": 58.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.attuned_bootes",
+      "tconevo.attuned_evorsio",
+      "tconevo.attuned_pelotrio",
+      "tconevo.attuned_fornax",
+      "tconevo.attuned_mineralis",
+      "tconevo.attuned_lucerna",
+      "tconevo.attuned_vicio",
+      "tconevo.chaos_resistance",
+      "tconevo.attuned_octans",
+      "tconevo.attuned_horologium",
+      "tconevo.attuned_aevitas",
+      "tconevo.primordial"
+    ],
+    "HEAD": [
+      "tconevo.attuned_bootes",
+      "tconevo.attuned_evorsio",
+      "tconevo.attuned_pelotrio",
+      "tconevo.attuned_fornax",
+      "tconevo.attuned_mineralis",
+      "tconevo.attuned_lucerna",
+      "tconevo.attuned_vicio",
+      "tconevo.chaos_resistance",
+      "tconevo.attuned_octans",
+      "tconevo.attuned_horologium",
+      "tconevo.attuned_aevitas",
+      "tconevo.primordial",
+      "tconevo.flux_burn"
+    ],
+    "HANDLE": [
+      "tconevo.attuned_bootes",
+      "tconevo.attuned_evorsio",
+      "tconevo.attuned_pelotrio",
+      "tconevo.attuned_fornax",
+      "tconevo.attuned_mineralis",
+      "tconevo.attuned_lucerna",
+      "tconevo.attuned_vicio",
+      "tconevo.chaos_resistance",
+      "tconevo.attuned_octans",
+      "tconevo.attuned_horologium",
+      "tconevo.attuned_aevitas",
+      "tconevo.primordial"
+    ],
+    "BOW": [
+      "tconevo.primordial",
+      "tconevo.flux_burn"
+    ],
+    "PROJECTILE": [
+      "tconevo.attuned_bootes_armor",
+      "tconevo.attuned_evorsio_armor",
+      "tconevo.attuned_pelotrio_armor",
+      "tconevo.attuned_fornax_armor",
+      "tconevo.attuned_mineralis_armor",
+      "tconevo.attuned_lucerna_armor",
+      "tconevo.attuned_vicio_armor",
+      "tconevo.chaos_resistance_armor",
+      "tconevo.attuned_octans_armor",
+      "tconevo.attuned_horologium_armor",
+      "tconevo.attuned_aevitas_armor"
+    ],
+    "CORE": [
+      "tconevo.attuned_bootes_armor",
+      "tconevo.attuned_evorsio_armor",
+      "tconevo.attuned_pelotrio_armor",
+      "tconevo.attuned_fornax_armor",
+      "tconevo.attuned_mineralis_armor",
+      "tconevo.attuned_lucerna_armor",
+      "tconevo.attuned_vicio_armor",
+      "tconevo.chaos_resistance_armor",
+      "tconevo.attuned_octans_armor",
+      "tconevo.attuned_horologium_armor",
+      "tconevo.attuned_aevitas_armor"
+    ],
+    "PLATES": [
+      "tconevo.attuned_bootes_armor",
+      "tconevo.attuned_evorsio_armor",
+      "tconevo.attuned_pelotrio_armor",
+      "tconevo.attuned_fornax_armor",
+      "tconevo.attuned_mineralis_armor",
+      "tconevo.attuned_lucerna_armor",
+      "tconevo.attuned_vicio_armor",
+      "tconevo.chaos_resistance_armor",
+      "tconevo.attuned_octans_armor",
+      "tconevo.attuned_horologium_armor",
+      "tconevo.attuned_aevitas_armor"
+    ],
+    "TRIM": [
+      "tconevo.attuned_bootes_armor",
+      "tconevo.attuned_evorsio_armor",
+      "tconevo.attuned_pelotrio_armor",
+      "tconevo.attuned_fornax_armor",
+      "tconevo.attuned_mineralis_armor",
+      "tconevo.attuned_lucerna_armor",
+      "tconevo.attuned_vicio_armor",
+      "tconevo.chaos_resistance_armor",
+      "tconevo.attuned_octans_armor",
+      "tconevo.attuned_horologium_armor",
+      "tconevo.attuned_aevitas_armor"
+    ]
+  }
+}
